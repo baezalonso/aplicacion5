@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>ejercicio de evaluacion</title>
+<!--grupo css-->
+<link rel="stylesheet" href="css/temasapp2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo javascript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/aciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript"></script>
+</head>
+<body>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+ 
+   
+   <div data-role="content" align="center">
+<h1> dame tu nombre</h1>
+<h2>dame tu nombre y mira lo que pasa</h2>
+<input id="demo" type="text">
+<button type="button" onClick="mensaje()">ENVIAR</button>
+<script>
+function mensaje()
+{
+	var x=document.getElementById("demo").value
+	{
+		alert ("!!!!BIENVENIDO¡¡¡¡" + x)
+	}
+}
+</script>
+<div data-role="footer" align="center" data-theme="a">
+<h4>Cesar Arturo Baez Alonso</h4>
+<h4>aplicacion de evaluacion</h4>
+<img src="imagenes/persona_azul.png" alt="" width="46" height="46">
+</div>
+</body>
+</html>
