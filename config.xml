@@ -6,10 +6,10 @@
    version     ="1.0.0">
   <!-- versionCode is opcional and Android only -->
   
-  <name>Aplicacion 4 /name>
+  <name>Aplicacion 5</name>
   
   <descripcion>
-    Aplicacion para la nueva profesora
+    Aplicacion de evaluacion
   </descripcion>
   
   <preference name="phonegap-version" value="3.1.0" />
